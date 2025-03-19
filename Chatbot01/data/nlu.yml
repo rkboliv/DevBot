@@ -1,0 +1,70 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - oi
+    - olá
+    - bom dia
+    - boa tarde
+    - e ai?
+    - tudo bem?
+  
+
+- intent: agradacer
+  examples: |
+    - obrigado
+    - muito obrigado
+    - valeu
+    - agradeço
+    - grato
+
+- intent: informar_genero
+  examples: |
+    - gosto de [comédia] (genero)
+    - quero ver um filme de [ação] (genero)
+    - prefiro [drama] (genero)
+    - me indica um filme de [suspense] (genero)
+    - quero ver um filme de [terror] (genero)
+    - me indica um filme de [ficção cientifica] (genero)
+    - me indica um filme de [romance] (genero)
+
+- intent: negar
+  examples: |
+    - não
+    - não quero
+    - não gosto
+    - prefiro outro gênero
+    - n
+
+- intent: despedir
+  examples: |
+    - tchau
+    - até logo
+    - adeus
+    - até mais
+    - até a próxima
+    
+
+- intent: afirmar
+  examples: |
+    - sim
+    - quero
+    - gosto
+    - pode ser
+    - interessante
+
+- intent: pedir_ajuda
+  examples: |
+    - pode me ajudar?
+    - não sei o que fazer
+    - como funciona?
+    - me ajuda
+
+- intent: pedir_recomendacao
+  examples: |
+    - me recomenda um filme
+    - quero uma recomendação
+    - me indica um filme [animação] (genero)
+    - quero ver um filme de [faroeste] (genero)
+    - quero assistir algum filme da [barbie] (genero)
