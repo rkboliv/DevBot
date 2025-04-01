@@ -1,0 +1,11 @@
+version: "3.1"
+
+rules:
+- rule: Responder a um problema do usuário
+  steps:
+  - intent: informar_problema
+  - intent: pedir_ajuda
+  - intent: agradecer
+  - intent: comprimentar
+  
+  - action: action_fornecer_suporte

@@ -1,0 +1,43 @@
+version: "3.1"
+nlu:
+- intent: comprimentar
+examples: |
+-oi
+-olá
+-e ai?
+- fala mano
+- tudo bem?
+- boa tarde
+- boa noite
+- bom dia
+
+
+- intent: agradecer
+examples: |
+- obrigado(a).
+- valeu!
+- muito obrigado(a)!
+- agradeço
+- grato(a).
+- brigadãoooo
+
+
+- intent: pedir_ajuda
+examples: |
+- poderia me ajudar?
+- me ajuda em uma coisinha aqui?
+- como funciona isso?
+- ajuda
+- me ajuda
+- não sei o que fazer
+- socorro
+
+
+- intent: informar_problema
+examples: |
+ - Não consigo acessar minha conta
+ - Meu login não está funcionando
+ - Quero trocar de plano
+ - Como faço para mudar meu plano?
+ - O aplicativo está com erro
+ - Meu app não abre
