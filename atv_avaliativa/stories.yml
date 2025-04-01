@@ -1,0 +1,7 @@
+version: "3.1"
+
+stories:
+- story: Fluxo de suporte básico
+  steps:
+  - intent: informar_problema
+  - action: action_fornecer_suporte

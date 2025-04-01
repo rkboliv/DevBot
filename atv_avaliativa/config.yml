@@ -1,0 +1,9 @@
+recipe: default.v1
+language: pt-BR
+pipeline:
+  - name: WhitespaceTokenizer
+  - name: CountVectorsFeaturizer
+  - name: DIETClassifier
+  - name: EntitySynonymMapper
+  - name: ResponseSelector
+  - name: FallbackClassifier

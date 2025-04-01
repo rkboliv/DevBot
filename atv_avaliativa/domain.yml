@@ -1,0 +1,30 @@
+version: "3.1"
+
+intents:
+  - informar_problema
+  - pedir_ajuda
+  - comprimentar
+  - agradecer
+  
+
+entities:
+  - problema
+
+slots:
+  problema:
+    type: text
+    influence_conversation: true
+
+actions:
+  - action_fornecer_suporte
+
+responses:
+  utter_boas_vindas:
+    - text: "Olá! Eu sou o assistente virtual da Som na Nuvem. Como posso te ajudar hoje?"
+  
+  utter_erro:
+    - text: "Não entendi sua dúvida. Poderia reformular?"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
